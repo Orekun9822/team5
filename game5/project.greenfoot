@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.riichi.image=ppl3.png
 class.yuki.image=snowman.png
 class.\u30A8\u30EA\u30C3\u30AF.image=boy1.png
 editor.fx.0.height=0
@@ -30,7 +31,11 @@ target1.width=80
 target1.x=0
 target1.y=0
 target2.height=50
+<<<<<<< HEAD
 target2.name=\u30A8\u30EA\u30C3\u30AF
+=======
+target2.name=riichi
+>>>>>>> cf1b60e69412e5e20b950e0376a7061b2317278d
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
