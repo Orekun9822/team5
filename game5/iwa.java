@@ -6,11 +6,11 @@ import greenfoot.*;
 /**
  * 
  */
-public class エリック extends Actor
+public class iwa extends Actor
 {
 
     /**
-     * Act - do whatever the エリック wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - do whatever the iwa wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
