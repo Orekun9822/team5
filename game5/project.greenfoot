@@ -1,10 +1,10 @@
 #Greenfoot project file
 class.riichi.image=ppl3.png
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=51
-editor.fx.0.y=204
-height=584
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=694
 package.numDependencies=0
 package.numTargets=4
 project.charset=UTF-8
@@ -52,5 +52,5 @@ target4.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
-xPosition=0
-yPosition=158
+xPosition=272
+yPosition=261
