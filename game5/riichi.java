@@ -18,16 +18,16 @@ public class riichi extends Actor
         move(1);
       }  
       if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(180);
-        move(1);
+        setRotation(0);
+        move(-1);
       }  
       if( Greenfoot.isKeyDown( "down" ) ){
         setRotation(90);
         move(1);
       }  
       if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(270);
-        move(1);
+        setRotation(90);
+        move(-1);
       }   
     }
 }
