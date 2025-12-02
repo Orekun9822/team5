@@ -1,6 +1,7 @@
 #Greenfoot project file
 class.MyWorld.image=newimg_202512291252138.png
 class.Obstacle.image=rock.png
+class.ishi.image=bigrock.png
 class.riichi.image=yuusya_game.png
 dependency1.from=MyWorld
 dependency1.to=riichi
