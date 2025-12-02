@@ -5,7 +5,7 @@ import greenfoot.*;
 /**
  * 
  */
-public class iwa extends Actor
+public class iwa extends Obstacle
 {
 
     /**
