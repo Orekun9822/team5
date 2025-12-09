@@ -15,5 +15,12 @@ public class MyWorld extends World
     {
         super(600, 400, 1);
         addObject( new riichi(), 300, 200 );
+        prepare();
+    }
+    private void prepare()
+    {
+       
+        ResetButton resetButton = new ResetButton();
+        addObject(resetButton, 100, 50); 
     }
 }
