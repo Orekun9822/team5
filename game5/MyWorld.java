@@ -15,8 +15,6 @@ public class MyWorld extends World
     {
         super(600, 400, 1);
         addObject( new riichi(), 300, 200 );
-        addObject( new iwa(), 200,100);
-        addObject( new ishi(), 100, 100);
         addObject( new Stairs(), 420, 62 );
         
         //上外壁
