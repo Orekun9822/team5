@@ -14,10 +14,6 @@ public class Stairs extends Actor
      */
     public void act() 
     {
-        Actor riichi = getOneIntersectingObject( riichi.class );
-        if( riichi != null ){
-            getWorld().showText( "GAME CLEAR", 400, 200 );
-            Greenfoot.stop();
-        } 
+        
     }    
 }

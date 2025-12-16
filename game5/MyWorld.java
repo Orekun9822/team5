@@ -17,6 +17,9 @@ public class MyWorld extends World
         super(600, 400, 1);
         addObject( new riichi(), 300, 200 );
         addObject( new Stairs(), 420, 62 );
+        setActOrder(Stairs.class, riichi.class);
+        addObject( new hantei(), 420, 55 );
+        setActOrder(hantei.class, Stairs.class);
         
         //上外壁
         addObject( new iwa(), 0, 80);
