@@ -17,6 +17,7 @@ public class MyWorld extends World
         addObject( new riichi(), 300, 200 );
         addObject( new iwa(), 200,100);
         addObject( new ishi(), 100, 100);
+        addObject( new Stairs(), 420, 62 );
         prepare();
     }
     private void prepare()

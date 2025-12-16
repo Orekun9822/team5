@@ -1,0 +1,23 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Stairs here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Stairs extends Actor
+{
+    /**
+     * Act - do whatever the Stairs wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        Actor riichi = getOneIntersectingObject( riichi.class );
+        if( riichi != null ){
+            getWorld().showText( "GAME CLEAR", 400, 200 );
+            Greenfoot.stop();
+        } 
+    }    
+}
