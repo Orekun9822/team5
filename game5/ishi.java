@@ -6,6 +6,14 @@ import greenfoot.*;
  * @author (your name) @version (a version number or a date)
  */
 public class ishi extends Obstacle {
+    
+     public ishi(){
+        getImage().scale( 50, 50 );
+        // コンストラクタで、画像が最初から回転しないよう念のため回転をリセット
+        setRotation(0); 
+    }
+    
+    
     /**
      * 指定された方向（dx, dy）に移動を試みる
      * @param dx X方向の移動量（-1, 0, 1）
