@@ -11,6 +11,7 @@ public class MyWorld extends World
     /**
      * Constructor for objects of class MyWorld.
      */
+    private GreenfootSound bgMusic = new GreenfootSound( "通常時.mp3" );
     public MyWorld()
     {
         super(600, 400, 1);
@@ -57,6 +58,20 @@ public class MyWorld extends World
         addObject( new iwa(), 550, 330);
         addObject( new iwa(), 550, 380);
         prepare();
+    }
+    @Override
+    public void started()
+    {
+       
+        bgMusic.playLoop();
+    }
+    
+
+    @Override
+    public void stopped()
+    {
+        
+        bgMusic.pause();
     }
     private void prepare()
     {
