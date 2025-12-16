@@ -30,6 +30,8 @@ public class MyWorld extends World
         addObject( new iwa(), 250, 80 );
         addObject( new iwa(), 300, 80 );
         addObject( new iwa(), 350, 80 );
+        addObject( new iwa(), 370, 80 );
+        addObject( new iwa(), 480, 80 );
         addObject( new iwa(), 500, 80 );
         //下外壁
         addObject( new iwa(), 0, 400);
