@@ -9,7 +9,7 @@ public class riichi extends Actor {
     private final int MOVE_DISTANCE = 1; // 1マス（グリッドセル）単位の移動量
 
     public riichi(){
-        getImage().scale( 50, 50 );
+        getImage().scale( 60, 60 );
         // コンストラクタで、画像が最初から回転しないよう念のため回転をリセット
         setRotation(0); 
     }
