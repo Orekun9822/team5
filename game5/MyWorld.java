@@ -1,4 +1,3 @@
-
 import java.util.*;
 import greenfoot.*;
 import lang.stride.*;
@@ -66,13 +65,11 @@ public class MyWorld extends World
         
         //meiro
         addObject( new iwa(), 100,150);
-        addObject( new iwa(), 100,150);
+        addObject( new iwa(), 100,190);
         addObject( new iwa(), 100,230);
-        addObject( new iwa(), 100,270);
         addObject( new iwa(), 100,310);
         addObject( new iwa(), 100,350);
-        addObject( new iwa(), 140,150);
-        
+        addObject( new iwa(), 150,150);
         addObject( new iwa(), 300,150);
         addObject( new iwa(), 340,150);
         addObject( new iwa(), 340,190);
@@ -82,20 +79,26 @@ public class MyWorld extends World
         addObject( new iwa(), 340,350);
         
         addObject( new ishi(), 60,270);
+        addObject( new ishi(), 60,210);
+        
         addObject( new ishi(), 140,250);
         addObject( new ishi(), 300,250);
         addObject( new ishi(), 300,190);
         addObject( new ishi(), 260,190);
         addObject( new ishi(), 180,190);
         addObject( new ishi(), 140,190);
-        
         addObject( new ishi(), 180,280);
         addObject( new ishi(), 220,280);
         addObject( new ishi(), 260,280);
-        
         addObject( new ishi(), 180,220);
         addObject( new ishi(), 220,220);
         addObject( new ishi(), 260,220);
+        
+        addObject( new iwa(), 400, 115 );
+        addObject( new iwa(), 400, 155 );
+        addObject( new iwa(), 400, 195 );
+        
+        
         
         
         prepare();
