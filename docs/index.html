@@ -1,21 +1,177 @@
-# 菊田立直のだいぼうけん
-## 背景
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菊田立直の大冒険 - 公式説明書</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FFD700; /* ゴールド（景品イメージ） */
+            --bg-dark: #0f172a;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --accent: #38bdf8;
+            --text: #f1f5f9;
+        }
 
-パチ屋で景品を手に入れた菊田立直、しかし景品交換所までの道のりが複雑な迷路にされてしまった
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-なんとしても景品を交換したい菊田立直は頑張って景品交換所まで向かおうと努力する...
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
 
-菊田立直の未来はいかに...
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+            margin-bottom: 40px;
+        }
 
-# ※菊田立直は菊田理一の商標登録商品です
+        .game-title {
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 0;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
 
+        .play-time {
+            display: inline-block;
+            background: var(--primary);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
 
-## 操作方法
+        .section {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
 
-矢印キー:移動
+        .section:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
 
+        h2 {
+            border-left: 4px solid var(--primary);
+            padding-left: 15px;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
 
-プレイ時間:約1分
+        .story-text {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            white-space: pre-wrap;
+        }
 
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-菊田理一の体重:100キロオーバー
+        .control-item {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .key {
+            display: inline-block;
+            border: 2px solid #64748b;
+            border-radius: 6px;
+            padding: 5px 10px;
+            font-weight: bold;
+            background: #1e293b;
+            margin: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .badge {
+            background: #ef4444;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="game-title">菊田立直の大冒険</h1>
+    <div class="play-time">想定プレイ時間：約1分</div>
+</header>
+
+<div class="container">
+    <section class="section">
+        <h2>STORY<span class="badge">背景</span></h2>
+        <div class="story-text">
+            パチ屋で最高の景品を手に入れた菊田立直。<br><br>
+            しかし、換金への道は険しかった。いつの間にか、景品交換所までの道のりが複雑な迷路に作り替えられていたのだ！<br><br>
+            「なんとしても……この景品を交換しなきゃならないんだ……！」<br><br>
+            菊田立直の明日はどっちだ。彼の切実な努力が今、始まる。
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>OVERVIEW<span class="badge">ゲーム概要</span></h2>
+        <p>
+            本作は、道を塞いでいる<strong>「動かせるブロック」</strong>を戦略的に動かし、
+            景品交換所までのルートを確保するパズルアクション迷路ゲームです。
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>CONTROLS<span class="badge">操作方法</span></h2>
+        <div class="controls-grid">
+            <div class="control-item">
+                <div class="key">↑</div>
+                <div class="key">←</div><div class="key">↓</div><div class="key">→</div>
+                <p>菊田の移動 / ブロックを押す</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 菊田立直製作委員会. All Rights Reserved.
+</footer>
+
+</body>
+</html>
