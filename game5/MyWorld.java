@@ -97,8 +97,19 @@ public class MyWorld extends World
         addObject( new iwa(), 400, 115 );
         addObject( new iwa(), 400, 155 );
         addObject( new iwa(), 400, 195 );
+        addObject( new iwa(), 400, 235 );
+        addObject( new iwa(), 400, 275 );
+        addObject( new iwa(), 400, 315 );
         
-        
+        addObject( new ishi(), 440 , 315) ;
+        addObject( new iwa(), 510, 345 );
+        addObject( new iwa(), 480, 285 );
+        addObject( new ishi(), 510 , 285) ;
+        addObject( new ishi(), 480 , 245) ;
+        addObject( new ishi(), 440 , 215) ;
+        addObject( new iwa(), 510 , 215) ;
+        addObject( new iwa(), 440 , 155) ;
+        addObject( new iwa(), 480 , 155) ;
         
         
         prepare();
